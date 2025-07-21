@@ -1,0 +1,76 @@
+/** CMB Layout **/
+
+.cmb_metabox .field {
+	overflow: hidden;
+	padding: 16px 0;
+}
+
+/* Neaten up the margins when metaboxes are within the standard postbox. */
+.postbox > .inside > .cmb_metabox {
+	margin: -10px 0;
+	padding: 5px 5px 0;
+}
+
+.cmb_metabox .cmb-row {
+	overflow: hidden;
+	position: relative;
+	margin: 0 -10px;
+	zoom: 1;
+}
+
+.cmb_metabox .cmb-row:before,
+.cmb_metabox .cmb-row:after {
+	content: "";
+	display: table;
+}
+
+.cmb_metabox .cmb-row:after {
+	content: " ";
+	position: absolute;
+	clear: both;
+	display: block;
+	border-bottom: 1px solid #DFDFDF;
+	left: 10px;
+	right: 10px;
+	bottom: 0;
+}
+
+.cmb_metabox > .cmb-row:last-child {
+	margin-bottom: -15px;
+}
+
+.cmb_metabox > .cmb-row:last-child:after {
+	display: none;
+}
+
+.cmb_metabox [class*="cmb-cell-"] {
+	float: left;
+	padding: 0 10px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cmb_metabox .cmb-cell-1  { width: 8.333333333%; }
+.cmb_metabox .cmb-cell-2  { width: 16.666666667%; }
+.cmb_metabox .cmb-cell-3  { width: 25%; }
+.cmb_metabox .cmb-cell-4  { width: 33.333333333%; }
+.cmb_metabox .cmb-cell-5  { width: 41.666666667%; }
+.cmb_metabox .cmb-cell-6  { width: 50%; }
+.cmb_metabox .cmb-cell-7  { width: 58.333333333%; }
+.cmb_metabox .cmb-cell-8  { width: 66.666666667%; }
+.cmb_metabox .cmb-cell-9  { width: 75%; }
+.cmb_metabox .cmb-cell-10 { width: 83.333333333%; }
+.cmb_metabox .cmb-cell-11 { width: 91.666666667%; }
+.cmb_metabox .cmb-cell-12 { width: 100%; }
+
+@media all and ( max-width: 850px ) {
+
+	.cmb_metabox [class*="cmb-cell-"] { width: 100%; }
+
+}
+
+@media all and ( min-width: 850px ) {
+
+	.cmb_metabox [class*="cmb-cell-"].cmb-has-label + .cmb-no-label { padding-top: 32px }
+
+}

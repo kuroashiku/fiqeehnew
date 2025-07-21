@@ -1,0 +1,148 @@
+=== 3.4.1 - 16 Februari 2023 ===
+
+improved: implementasi Facebook Pixel script terbaru
+
+=== 3.4.0 - 29 Desember 2022 ===
+
+added: opsi untuk extra multiple Titok Pixel ID di single post/page tertentu
+added: opsi untuk 3 columns galery layout di blog/archive layout
+added: opsi untuk disable facebook sharing (opengraph) head output dari LandingPress
+added: opsi untuk default facebook sharing (opengraph) image
+added: opsi baru untuk non-aktif-kan beberapa optimasi dari LandingPress di Appearance - Customize - LandingPress Optimization
+  - disable WP Core LazyLoad (default dari WordPress dinyalakan)
+  - enable WP Core Responsive Image (default dari LandingPress dimatikan)
+  - enable WP Core Emoji (default dari LandingPress dimatikan)
+  - enable WP Core Version di head (default dari LandingPress dimatikan)
+  - enable WP Core Rest API Link di head (default dari LandingPress dimatikan)
+  - enable WP Core oEmbed Discovery Link di head (default dari LandingPress dimatikan)
+fixed: SVG overflow di Elementor
+fixed: icon alignment issue di Elementor Icon List widget
+fixed: LP WhatsApp Form Popup - issue di popup jika ada lebih dari satu popup di halaman yang sama
+fixed: LP 2Step Option Form - issue di popup jika ada lebih dari satu popup di halaman yang sama
+fixed: PHP8.0 & PHP8.1 issue di theme updater
+
+=== 3.3.0 - 7 Oktober 2022 ===
+
+added: multiple Tiktok Pixel ID (maksimal 6 pixel)
+added: Tiktok Pixel event di page loading di post/page
+added: Tiktok Pixel event di button click dengan Elementor
+improved: Facebook Pixel event loading supaya lebih kompatibel dengan plugin optimasi
+improved: LP WhatsApp Button widget pakai inline svg untuk WhatsApp icon
+fixed: opsi Facebook Image (OpenGraph sharing) tidak muncul di editor Gutenberg
+
+=== 3.2.3 - 20 September 2022 ===
+
+fixed: widget Coutdown Timer tidak jalan baik dengan fitur delay javascript di WPRocket
+fixed: masalah CSS word-wrap di Elementor
+fixed: deprecated warning di list page/post ketika WP_DEBUG on
+updated: tambahkan plugin Wordfence di recommended plugin install, user bisa memilih antara Sucuri atau Wordfence
+
+=== 3.2.2 - 18 Januari 2022 ===
+
+fixed: widget 2Step Optin tidak bisa diganti warna
+improved: UI/UX di beberapa bagian
+
+=== 3.2.1 - 11 Mei 2021 ===
+
+added : support Google Analytics G4 yang terbaru
+fixed : Elementor 3.2 issue setelah update LandingPress v3.2
+
+=== 3.2.0 - 8 Mei 2021 ===
+
+added : Elementor 3.2 compatibility
+
+updated : Facebook Pixel - hapus pixel parameter yang tidak relevan dengan update FB yang terbaru
+updated : Facebook Pixel - extra pixel event di widget Button dan Image di Elementor
+
+added : notif admin jika WP_DEBUG aktif
+updated : Google font swap display untuk optimasi speed
+fixed : mobile menu navigation aligment tidak tampil dengan baik di beberapa user
+fixed : comment form consent label tidak tampil dengan baik di update WP terbaru
+fixed : Customizer buttonset tidak tampil dengan baik di update WP terbaru
+fixed : Customizer ganti footer font size
+fixed : Elementor LP Post Grid - terkadang draft post tampil ketika admin user login
+
+=== 3.1.2 - 13 Desember 2020 ===
+
+improved : WordPress 5.6 compatibility
+improved : WP Rocket plugin compatibility
+improved : defer parsing javascript default non-aktif, silahkan ke Appearance - Customize - LandingPress - Optimization jike ingin mengaktifkan defer parsing javascript
+
+=== 3.1.1 - 25 September 2020 ===
+
+added : Elementor - LP Navigation Menu - dua tipe menu, Simple Menu & WP Nav Menu (support multi-level menu)
+added : Elementor - Template Kit - support Elementor versi lama v2.8.x
+added : Elementor - sticky section CSS class 
+	- sticky-top
+	- sticky-topleft
+	- sticky-topright
+	- sticky-bottom
+	- sticky-bottomleft
+	- sticky-bottomright
+fixed : breadcrumb di halaman author/user tidak muncul/error
+
+=== 3.1.0.3 - 16 September 2020 ===
+
+updated : kompatibel dengan Elementor 3.0.8
+
+=== 3.1.0.2 - 26 Agustus 2020 ===
+
+updated : kompatibel dengan Elementor 3.0
+updated : hapus kode CSS untuk plugin WPAfiliasi Cafebisnis
+
+=== 3.1.0.1 - 1 Juli 2020 ===
+
+updated: notif WP_MEMORY_LIMIT hanya tampil di halaman tertentu saja
+
+=== 3.1.0 - 29 Juni 2020 ===
+
+changelog menyusul, ini maintenance release, fixing bugs, makin stabil
+
+=== 3.0.1 - 30 Januari 2020 ===
+
+fixed: Metabox - field file upload tidak muncul karena konflik dengan plugin lain
+
+updated : Elementor - v2.8.5.1-LP
+updated : Elementor - LP Post Grid - tampil 2 kolom di 500px sampai 767px
+fixed: Elementor - Toggle - title color
+
+=== 3.0.0 - 19 Desember 2019 ===
+
+added : inline SVG icon, sudah tidak lagi pakai FontAwesome4
+updated : breadcrumb tidak lagi pakai rich snippet
+
+improved : sistem licensing theme yang baru
+improved : TGMPA untuk plugin activation
+
+updated : Facebook Pixel - tambahkan semua event standard baru di Facebook Pixel
+updated : WhatsApp - opsi deeplink
+
+added : Elementor - Evergreen Countdown
+added : Elementor - WhatsApp Form
+added : Elementor - WhatsApp Form Popup
+updated : Elementor - Contact Form - better support untuk Contact Form DB
+updated : Elementor - Payment Confirmation Form - better support untuk Contact Form DB
+fixed : Elementor - FB Comments - setting app_id
+
+fixed : Facebook OpenGraph di homepage
+
+dan beberapa update lainnya
+
+=== 3.0.0-beta10 - 1 April 2019 ===
+
+added: Optimization - opsi baru untuk enable wp-embed script
+
+updated: WooCommerce - Sticky AddToCart - tampilkan jumlah stok & harga 
+
+updated: Google Ads - ganti wording Google Adwords jadi Google Ads (Adwords)
+updated: Google Ads - better CTRL+Click detection untuk onclick button
+
+updated: CalderaForms - otomatis aktifkan wp-embed script jika plugin CalderaForms aktif. ini agak aneh karena di CalderaForms terbaru tidak bisa submit form karena error javascript yang terjadi ketika script wp-embed nonaktif. ini bug di CalderaForms sebenarnya, dan semoga dibenerin Caldera suatu saat nanti. 
+
+=== 3.0.0-beta9 - 20 March 2019 ===
+
+fixed: fb sharing debug tidak mau double og:url dalam kasus plugin Yoast SEO aktif
+
+=== 3.0.0-beta8 - 15 March 2019 ===
+
+fixed: fb parameter issue di button WhatsApp WooCommerce
