@@ -1,0 +1,582 @@
+# Translation of Plugins - Performance Lab - Stable (latest release) in Indonesian
+# This file is distributed under the same license as the Plugins - Performance Lab - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-02-16 11:38:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-beta.2\n"
+"Language: id\n"
+"Project-Id-Version: Plugins - Performance Lab - Stable (latest release)\n"
+
+#: admin/plugins.php:413
+msgid "<strong>Compatible</strong> with your version of WordPress"
+msgstr "<strong>Kompatibel</strong> dengan versi WordPress Anda"
+
+#: admin/plugins.php:411
+msgid "<strong>Incompatible</strong> with your version of WordPress"
+msgstr "<strong>Tidak kompatibel</strong> dengan versi WordPress Anda"
+
+#: admin/plugins.php:409
+msgid "Untested with your version of WordPress"
+msgstr "Belum diuji dengan versi WordPress Anda"
+
+#. translators: %s: Number of installations.
+#: admin/plugins.php:403
+msgid "%s Active Installations"
+msgstr "%s Instalasi Aktif"
+
+#: admin/plugins.php:398
+msgctxt "Active plugin installations"
+msgid "Less Than 10"
+msgstr "Di bawah 10"
+
+#. translators: %s: Human-readable time difference.
+#: admin/plugins.php:383
+msgid "%s ago"
+msgstr "%s yang lalu"
+
+#: admin/plugins.php:379
+msgid "Last Updated:"
+msgstr "Terakhir Diperbarui:"
+
+#: admin/plugins.php:329
+msgid "This plugin does not work with your version of PHP."
+msgstr "Plugin ini tidak dapat digunakan dengan versi PHP Anda."
+
+#: admin/plugins.php:318
+msgid "This plugin does not work with your version of WordPress."
+msgstr "Plugin ini tidak dapat digunakan dengan versi WordPress Anda."
+
+#. translators: %s: URL to Update PHP page.
+#: admin/plugins.php:311 admin/plugins.php:334
+msgid "<a href=\"%s\">Learn more about updating PHP</a>."
+msgstr "<a href=\"%s\">Pelajari lebih lanjut tentang memperbarui versi PHP </a>."
+
+#. translators: %s: URL to WordPress Updates screen.
+#: admin/plugins.php:303 admin/plugins.php:323
+msgid "<a href=\"%s\">Please update WordPress</a>."
+msgstr "<a href=\"%s\">Mohon perbarui WordPress</a>."
+
+#: admin/plugins.php:288
+msgid "This plugin does not work with your versions of WordPress and PHP."
+msgstr "Plugin ini tidak dapat digunakan dengan versi WordPress dan PHP Anda."
+
+#: admin/plugins.php:265
+msgid "More Details"
+msgstr "Detail Selengkapnya"
+
+#. translators: %s: Plugin name and version.
+#: admin/plugins.php:263
+msgid "More information about %s"
+msgstr "Informasi lebih lanjut tentang %s"
+
+#: admin/plugins.php:240
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Dipasang"
+
+#: admin/plugins.php:234
+msgctxt "plugin"
+msgid "Cannot Activate"
+msgstr "Tidak Dapat Mengaktifkan"
+
+#. translators: %s: Plugin name.
+#: admin/plugins.php:215
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "Aktifkan %s"
+
+#: admin/plugins.php:213
+msgid "Activate"
+msgstr "Aktifkan"
+
+#: admin/plugins.php:208
+msgid "Deactivate"
+msgstr "Non-aktifkan"
+
+#. translators: %s: Plugin name.
+#: admin/plugins.php:207
+msgctxt "plugin"
+msgid "Deactivate %s"
+msgstr "Nonaktifkan %s"
+
+#: admin/plugins.php:186
+msgctxt "plugin"
+msgid "Active"
+msgstr "Aktif"
+
+#: admin/plugins.php:174
+msgctxt "plugin"
+msgid "Cannot Install"
+msgstr "Tidak dapat menginstal"
+
+#: admin/plugins.php:169
+msgid "Install Now"
+msgstr "Instal Sekarang"
+
+#. translators: %s: Plugin name and version.
+#: admin/plugins.php:166
+msgctxt "plugin"
+msgid "Install %s now"
+msgstr "Instal %s sekarang"
+
+#. translators: %s: Plugin author.
+#: admin/plugins.php:144
+msgid "By %s"
+msgstr "Oleh %s"
+
+#: admin/plugins.php:99
+msgid "Plugins list"
+msgstr "Daftar plugin"
+
+#: admin/plugins.php:94
+msgid "Performance Plugins"
+msgstr "Plugin Performa"
+
+#: admin/load.php:801
+msgid "Plugin deactivated."
+msgstr "Plugin dinonaktifkan."
+
+#: admin/load.php:795
+msgid "Plugin activated."
+msgstr "Plugin diaktifkan."
+
+#: admin/load.php:749
+msgid "Invalid plugin."
+msgstr "Plugin tidak valid"
+
+#: admin/load.php:713
+msgid "Invalid nonce: Please refresh and try again."
+msgstr "Nonce tidak valid: Muat ulang dan coba lagi."
+
+#: admin/load.php:682
+msgid "Sorry, you are not allowed to deactivate this plugin."
+msgstr "Maaf, Anda tidak diizinkan untuk menonaktifkan plugin berikut."
+
+#: admin/load.php:644
+msgid "Sorry, you are not allowed to activate this plugin."
+msgstr "Maaf, Anda tidak diizinkan untuk mengaktifkan plugin ini."
+
+#: admin/load.php:636
+msgid "Plugin not found."
+msgstr "Plugin tidak ditemukan."
+
+#: admin/load.php:433
+msgid "Performance Lab: Action required"
+msgstr "Performance Lab: Tindakan Diperlukan"
+
+#: admin/server-timing.php:263
+msgid "Output buffering is needed to capture metrics after headers have been sent and while the template is being rendered. Note that output buffering may possibly cause an increase in TTFB if the response would be flushed multiple times."
+msgstr "Output buffering diperlukan untuk menampilkan metrik setelah header dikirim dan saat templat sedang dirender. Perhatikan bahwa output buffering mungkin menyebabkan peningkatan TTFB jika responsnya di-flush beberapa kali."
+
+#. translators: %s: perflab_server_timing_use_output_buffer
+#: admin/server-timing.php:255
+msgid "Output buffering has been forcibly disabled via the %s filter."
+msgstr "Output buffering telah dinonaktifkan otomatis melalui filter %s."
+
+#. translators: %s: perflab_server_timing_use_output_buffer
+#: admin/server-timing.php:244
+msgid "Output buffering has been forcibly enabled via the %s filter."
+msgstr "Output buffering telah diaktifkan otomatis melalui filter %s."
+
+#: admin/server-timing.php:235
+msgid "Enable output buffering of template rendering"
+msgstr "Aktifkan output buffering rendering template"
+
+#: admin/server-timing.php:198
+msgid "Enter a single hook name per line."
+msgstr "Masukkan satu nama hook per baris."
+
+#: admin/server-timing.php:137
+msgid "Filters"
+msgstr "Filter"
+
+#: admin/server-timing.php:127
+msgid "Actions"
+msgstr "Aksi"
+
+#: admin/server-timing.php:91
+msgid "For any hook name provided, the <strong>cumulative duration between all callbacks</strong> attached to the hook is measured, in milliseconds."
+msgstr "Untuk nama hook apa pun yang disediakan, <strong>durasi kumulatif antara semua callback</strong> yang terpasang pada hook diukur, dalam milidetik."
+
+#. translators: %s: Server-Timing
+#: admin/server-timing.php:84
+msgid "In this section, you can provide hook names to include measurements for them in the %s header."
+msgstr "Di bagian ini, Anda dapat memberikan nama hook untuk menyertakan pengukurannya di header %s."
+
+#: admin/server-timing.php:76
+msgid "Benchmarking"
+msgstr "Perbandingan"
+
+#: admin/server-timing.php:52
+msgid "Output Buffering"
+msgstr "Output Buffering"
+
+#: admin/server-timing.php:24 admin/server-timing.php:25
+#: admin/server-timing.php:157
+msgid "Server-Timing"
+msgstr "Waktu Server:"
+
+#: modules/images/webp-uploads/load.php:30
+msgid "The WebP Uploads feature cannot be loaded from within the plugin since it is already merged into WordPress core."
+msgstr "Fitur unggahan WebP tidak dapat dimuat dari dalam plugin karena sudah digabungkan ke dalam WordPress."
+
+#: module-i18n.php:4
+msgctxt "module name"
+msgid "Dominant Color Images"
+msgstr "Gambar Warna Dominan"
+
+#: admin/load.php:180
+msgid "The module cannot be managed with Performance Lab since it is already active as a standalone plugin."
+msgstr "Modul ini tidak dapat dikelola dengan Performance Lab karena sudah aktif sebagai plugin sendiri."
+
+#: server-timing/class-perflab-server-timing.php:134
+msgid "The method must be called before headers have been sent."
+msgstr "Metode ini harus dipanggil sebelum header dikirim."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing.php:92
+msgid "The %s argument is required and must be a string."
+msgstr "Argumen %s wajib diisi dan harus berupa string."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing.php:83
+msgid "The %s argument is required and must be a callable."
+msgstr "Argumen %s wajib diisi dan dapat dipanggil."
+
+#. translators: %s: metric slug
+#: server-timing/class-perflab-server-timing.php:56
+msgid "A metric with the slug %s is already registered."
+msgstr "Metrik dengan slug %s sudah terdaftar."
+
+#. translators: %s: PHP method name
+#: server-timing/class-perflab-server-timing-metric.php:137
+msgid "The %s method must be called before."
+msgstr "Metode %s harus dipanggil sebelumnya."
+
+#. translators: %s: WordPress action name
+#: server-timing/class-perflab-server-timing-metric.php:87
+#: server-timing/class-perflab-server-timing.php:66
+msgid "The method must be called before or during the %s action."
+msgstr "Metode ini harus dipanggil sebelum atau selama aksi %s."
+
+#. translators: %s: PHP parameter name
+#: server-timing/class-perflab-server-timing-metric.php:77
+msgid "The %s parameter must be an integer, float, or numeric string."
+msgstr "Parameter %s harus berupa string integer, float, atau numerik."
+
+#: modules/images/webp-uploads/settings.php:40
+msgid "WebP and JPEG"
+msgstr "WebP dan JPEG"
+
+#: admin/load.php:217
+msgid "Database"
+msgstr "Database"
+
+#: admin/load.php:214
+msgid "JS & CSS"
+msgstr "JS & CSS"
+
+#: modules/images/webp-uploads/settings.php:66
+msgid "Enabling JPEG in addition to WebP can improve compatibility, but will effectively double the filesystem storage use of your images."
+msgstr "Mengaktifkan JPEG selain WebP dapat meningkatkan kompatibilitas, namun akan menggandakan file gambar dan meningkatkan penggunaan penyimpanan Anda."
+
+#: modules/images/webp-uploads/settings.php:64
+msgid "Generate JPEG files in addition to WebP"
+msgstr "Hasilkan file JPEG selain WebP"
+
+#: modules/database/audit-autoloaded-options/helper.php:149
+msgid "Size"
+msgstr "Ukuran"
+
+#: modules/database/audit-autoloaded-options/helper.php:148
+msgid "Option Name"
+msgstr "Nama Opsi"
+
+#. Author URI of the plugin
+msgid "https://make.wordpress.org/performance/"
+msgstr "https://make.wordpress.org/performance/"
+
+#: module-i18n.php:10
+msgctxt "module name"
+msgid "Enqueued Assets Health Check"
+msgstr "Pemeriksaan Kesehatan Aset yang Diantrekan"
+
+#: module-i18n.php:12
+msgctxt "module name"
+msgid "Autoloaded Options Health Check"
+msgstr "Opsi Pemeriksaan yang Dimuat Otomatis"
+
+#: module-i18n.php:6
+msgctxt "module name"
+msgid "WebP Support Health Check"
+msgstr "Pemeriksaan Dukungan WebP"
+
+#: modules/images/dominant-color-images/helper.php:57
+msgid "Unable to load image."
+msgstr "Tidak dapat memuat gambar"
+
+#. translators: %s: module name
+#: admin/load.php:186
+msgid "%s is already part of your WordPress version and therefore cannot be loaded as part of the plugin."
+msgstr "%s adalah bagian dari versi WordPress Anda dan karena itu tidak dapat dimuat sebagai bagian dari plugin. "
+
+#. translators: %s is the error message
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:96
+msgid "Transparency detection failed: %s"
+msgstr "Deteksi transparansi gagal: %s"
+
+#. translators: %s is the error message.
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:49
+msgid "Dominant color detection failed: %s"
+msgstr "Deteksi warna dominan gagal: %s"
+
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-gd.php:62
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:64
+msgid "Transparency detection no image found."
+msgstr "Deteksi transparansi tidak ada gambar yang ditemukan."
+
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-gd.php:44
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:43
+msgid "Dominant color detection failed."
+msgstr "Deteksi warna dominan gagal."
+
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-gd.php:32
+#: modules/images/dominant-color-images/class-dominant-color-image-editor-imagick.php:32
+msgid "Dominant color detection no image found."
+msgstr "Deteksi warna dominan tidak ada gambar yang ditemukan."
+
+#: module-i18n.php:5
+msgctxt "module description"
+msgid "Adds support to store the dominant color of newly uploaded images and create a placeholder background of that color."
+msgstr "Menambahkan dukungan untuk menyimpan warna dominan untuk gambar dan membuat latar belakang placeholder dengan warna itu."
+
+#: modules/database/audit-autoloaded-options/helper.php:78
+msgid "https://wordpress.org/support/article/optimization/#autoloaded-options"
+msgstr "https://wordpress.org/support/article/optimization/#autoloaded-options"
+
+#. translators: Accessibility text.
+#: modules/images/webp-support/helper.php:44
+msgid "WebP support can only be enabled by your hosting provider, so contact them for more information."
+msgstr "Dukungan WebP hanya dapat diaktifkan oleh penyedia hosting Anda, jadi hubungi mereka untuk informasi lebih lanjut."
+
+#: modules/images/webp-support/helper.php:30
+msgid "The WebP image format produces images that are usually smaller in size than JPEG images, which can reduce page load time and consume less bandwidth."
+msgstr "Format gambar WebP menghasilkan gambar yang biasanya berukuran lebih kecil daripada gambar JPEG, yang dapat mengurangi waktu buka halaman dan menggunakan lebih sedikit bandwidth."
+
+#. translators: 1. Number of autoloaded options. 2. Autoloaded options size.
+#: modules/database/audit-autoloaded-options/helper.php:61
+msgid "Your site has %1$s autoloaded options (size: %2$s) in the options table, which could cause your site to be slow. You can reduce the number of autoloaded options by cleaning up your site's options table."
+msgstr "Situs Anda memiliki %1$s opsi yang dimuat secara otomatis (ukuran: %2$s) di tabel opsi, yang dapat menyebabkan situs Anda menjadi lambat. Anda dapat mengurangi jumlah opsi yang dimuat secara otomatis dengan membersihkan tabel opsi situs Anda."
+
+#: modules/database/audit-autoloaded-options/helper.php:58
+msgid "Autoloaded options could affect performance"
+msgstr "Opsi yang dimuat secara otomatis dapat memengaruhi performa"
+
+#. translators: 1. Number of autoloaded options. 2. Autoloaded options size.
+#: modules/database/audit-autoloaded-options/helper.php:36
+msgid "Your site has %1$s autoloaded options (size: %2$s) in the options table, which is acceptable."
+msgstr "Situs Anda memiliki %1$s opsi yang dimuat secara otomatis (ukuran: %2$s) di tabel opsi, yang dapat diterima."
+
+#: modules/database/audit-autoloaded-options/helper.php:28
+msgid "Autoloaded options are acceptable"
+msgstr "Opsi yang dimuat secara otomatis dapat diterima"
+
+#: modules/database/audit-autoloaded-options/helper.php:25
+msgid "Autoloaded options are configuration settings for plugins and themes that are automatically loaded with every page load in WordPress. Having too many autoloaded options can slow down your site."
+msgstr "Opsi yang dimuat otomatis adalah pengaturan konfigurasi untuk plugin dan tema yang dimuat secara otomatis dengan setiap pemuatan halaman di WordPress. Memiliki terlalu banyak opsi yang dimuat secara otomatis dapat memperlambat situs Anda."
+
+#: modules/database/audit-autoloaded-options/hooks.php:23
+msgid "Autoloaded options"
+msgstr "Opsi yang dimuat otomatis"
+
+#: modules/images/webp-uploads/helper.php:140
+msgid "At least one of the dimensions must be a positive number."
+msgstr "Setidaknya salah satu dimensi harus berupa bilangan positif."
+
+#: modules/images/webp-uploads/helper.php:128
+msgid "The original image file does not exists, subsizes are created out of the original image."
+msgstr "File gambar asli tidak ada, ukuran sub dibuat dari gambar asli."
+
+#: module-i18n.php:13
+msgctxt "module description"
+msgid "Adds a check for autoloaded options in Site Health status."
+msgstr "Menambahkan tanda centang untuk opsi yang dimuat secara otomatis dalam status Kesehatan Situs"
+
+#: modules/images/webp-support/helper.php:40
+msgid "Your site does not support WebP"
+msgstr "Situs Anda tidak mendukung WebP"
+
+#: modules/images/webp-support/helper.php:22
+msgid "Your site supports WebP"
+msgstr "Situs Anda mendukung WebP"
+
+#: modules/images/webp-support/hooks.php:23
+msgid "WebP Support"
+msgstr "Dukungan WebP"
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:174
+msgid "Your website enqueues %1$s style (size: %2$s). Try to reduce the number or to concatenate them."
+msgid_plural "Your website enqueues %1$s styles (size: %2$s). Try to reduce the number or to concatenate them."
+msgstr[0] "Situs web Anda memiliki %1$s style (ukuran: %2$s). Cobalah untuk mengurangi jumlahnya atau menggabungkannya."
+msgstr[1] "Situs web Anda memiliki %1$s style (ukuran: %2$s). Cobalah untuk mengurangi jumlahnya atau menggabungkannya."
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:134
+msgid "The amount of %1$s enqueued style (size: %2$s) is acceptable."
+msgid_plural "The amount of %1$s enqueued styles (size: %2$s) is acceptable."
+msgstr[0] "Jumlah %1$s gaya yang diantrekan (ukuran: %2$s) dapat diterima."
+msgstr[1] "Jumlah %1$s gaya yang diantrekan (ukuran: %2$s) dapat diterima."
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:123
+msgid "Enqueued styles"
+msgstr "Antrean style"
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:100
+#: modules/js-and-css/audit-enqueued-assets/helper.php:192
+msgid "Clean Test Cache"
+msgstr "Hapus Tes Cache"
+
+#: modules/database/audit-autoloaded-options/helper.php:79
+#: modules/js-and-css/audit-enqueued-assets/helper.php:98
+#: modules/js-and-css/audit-enqueued-assets/helper.php:190
+msgid "More info about performance optimization"
+msgstr "Lebih lanjut tentang optimasi performa "
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:97
+#: modules/js-and-css/audit-enqueued-assets/helper.php:189
+msgid "https://wordpress.org/support/article/optimization/"
+msgstr "https://wordpress.org/support/article/optimization/"
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:82
+msgid "Your website enqueues %1$s script (size: %2$s). Try to reduce the number or to concatenate them."
+msgid_plural "Your website enqueues %1$s scripts (size: %2$s). Try to reduce the number or to concatenate them."
+msgstr[0] "Situs web Anda mengantrekan %1$s skrip (ukuran: %2$s). Cobalah untuk mengurangi jumlahnya atau menggabungkannya."
+msgstr[1] "Situs web Anda mengantrekan %1$s skrip (ukuran: %2$s). Cobalah untuk mengurangi jumlahnya atau menggabungkannya."
+
+#. translators: 1: Number of enqueued styles. 2.Styles size.
+#: modules/js-and-css/audit-enqueued-assets/helper.php:41
+msgid "The amount of %1$s enqueued script (size: %2$s) is acceptable."
+msgid_plural "The amount of %1$s enqueued scripts (size: %2$s) is acceptable."
+msgstr[0] "Jumlah %1$s skrip yang diantrekan (ukuran: %2$s) dapat diterima."
+msgstr[1] "Jumlah %1$s skrip yang diantrekan (ukuran: %2$s) dapat diterima."
+
+#: modules/js-and-css/audit-enqueued-assets/helper.php:30
+msgid "Enqueued scripts"
+msgstr "Skrip Antrean"
+
+#: modules/js-and-css/audit-enqueued-assets/hooks.php:120
+msgid "CSS assets"
+msgstr "Aset CSS"
+
+#: modules/js-and-css/audit-enqueued-assets/hooks.php:116
+msgid "JS assets"
+msgstr "Aset JS"
+
+#: modules/images/webp-uploads/helper.php:168
+msgid "The file key is not present on the image data"
+msgstr "Kunci file tidak ada pada data gambar"
+
+#: modules/images/webp-uploads/helper.php:123
+msgid "The provided mime type is not supported."
+msgstr "Jenis mime yang disediakan tidak didukung."
+
+#: modules/images/webp-uploads/helper.php:119
+msgid "The provided mime type is not allowed."
+msgstr "Jenis mime yang disediakan tidak diperbolehkan."
+
+#: modules/images/webp-uploads/helper.php:201
+msgid "The image does not have a valid metadata."
+msgstr "Gambar tidak memiliki metadata yang valid."
+
+#: module-i18n.php:7
+msgctxt "module description"
+msgid "Adds a WebP support check in Site Health status."
+msgstr "Menambahkan pemeriksaan dukungan WebP di status Kesehatan Situs."
+
+#: module-i18n.php:11
+msgctxt "module description"
+msgid "Adds a CSS and JS resource check in Site Health status."
+msgstr "Menambahkan pemeriksaan sumber daya CSS dan JS dalam status Kesehatan Situs."
+
+#: module-i18n.php:9
+msgctxt "module description"
+msgid "Creates WebP versions for new JPEG image uploads if supported by the server."
+msgstr "Membuat versi WebP untuk unggahan gambar JPEG baru jika didukung oleh server."
+
+#: module-i18n.php:8
+msgctxt "module name"
+msgid "WebP Uploads"
+msgstr "Upload WebP"
+
+#: admin/load.php:530
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: admin/load.php:428 admin/load.php:473
+msgid "Settings > Performance"
+msgstr "Pengaturan > Performa "
+
+#. translators: %s: settings page link
+#: admin/load.php:472
+msgid "You can now test upcoming WordPress performance features. Open %s to individually toggle the performance features included in the plugin."
+msgstr "Anda sekarang dapat menguji fitur performa WordPress yang akan datang. Buka %s untuk mengaktifkan fitur performa yang disertakan dalam plugin satu per satu."
+
+#: admin/load.php:223
+msgid "Object Cache"
+msgstr "Cache Objek"
+
+#: admin/load.php:220
+msgid "Measurement"
+msgstr "Pengukuran"
+
+#: admin/load.php:211
+msgid "Images"
+msgstr "Gambar"
+
+#. translators: %s: module name
+#: admin/load.php:170
+msgid "Enable %s"
+msgstr "Aktifkan %s"
+
+#. translators: %s: module name
+#: admin/load.php:162
+msgid "Enable %s <strong>(experimental)</strong>"
+msgstr "Aktifkan %s <strong>(eksperimental)</strong>"
+
+#: admin/load.php:70
+msgid "Other"
+msgstr "Lainnya"
+
+#: admin/load.php:25 modules/database/audit-autoloaded-options/helper.php:31
+#: modules/images/webp-support/helper.php:25
+#: modules/js-and-css/audit-enqueued-assets/helper.php:33
+#: modules/js-and-css/audit-enqueued-assets/helper.php:126
+msgid "Performance"
+msgstr "Performa"
+
+#: admin/load.php:24 admin/load.php:122
+msgid "Performance Modules"
+msgstr "Modul Performa"
+
+#. Author of the plugin
+msgid "WordPress Performance Team"
+msgstr "WordPress Performance Team"
+
+#. Description of the plugin
+msgid "Performance plugin from the WordPress Performance Team, which is a collection of standalone performance modules."
+msgstr "Plugin performa dari WordPress Performance Team, yang merupakan kumpulan modul kinerja mandiri."
+
+#. Plugin URI of the plugin
+msgid "https://github.com/WordPress/performance"
+msgstr "https://github.com/WordPress/performance"
+
+#. Plugin Name of the plugin
+#: admin/load.php:467
+msgid "Performance Lab"
+msgstr "Performance Lab"
